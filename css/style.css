@@ -24,36 +24,36 @@
     background-size: cover;
     height: 600px;
     width: 100%;
-    position: relative; 
+    position: relative;
 }
 
 .img-1 {
     background-image: url(../img/ba1.jpg);
-  
+
 }
 
 .img-2 {
-    background-image: url(../img/ba2.jpg); 
-    
+    background-image: url(../img/ba2.jpg);
+
 }
 
-.img-3{
-    background-image: url(../img/ba3.jpg); 
- 
+.img-3 {
+    background-image: url(../img/ba3.jpg);
+
 }
 
-.grad-img{
+.grad-img {
     position: absolute;
-    background-color: rgba(0,0,0,.5) ;
+    background-color: rgba(0, 0, 0, .5);
     width: 100%;
     height: 100%;
 }
 
-.grad-img div{
+.grad-img div {
     bottom: 10rem;
     right: 8rem;
     text-align: end;
-} 
+}
 
 footer {
     background-color: #1d3a4a;
@@ -67,31 +67,68 @@ footer .bg-cr {
 }
 
 
-.card:hover{
+.card:hover {
     border-radius: 40px;
-   border-color: black;
-   transform:translate(-15px);
-      
-  
-  }
-  
-  
-.descuentos{
-    display:flex;
-    padding: 15px;
- 
+    border-color: black;
+    transform: translate(-15px);
+
+
 }
-@media screen and (max-width:800px) {
-    .descuentos{
-        display:flex;
-        margin-left: 130px;
-       justify-content: center;
+
+
+.descuentos {
+    display: flex;
+    padding: 15px;
+
+}
+
+.card-title1 {
+
+    color: black;
+
+}
+
+.card-text1 {
+
+    color: black;
+
+}
+
+.porc {
+    color: black;
+
+
+
+}
+
+@media screen and (max-width:808px) {
+    .descuentos.py-3 {
+        display: block;
+        justify-content: center;
         padding: 10px;
-        width:30%;
-        height: 10%;
-     margin-top: 10px;
-     text-align: center;
+        margin: 20px;
+        text-align: center;
+        height: 30%;
+
+
 
     }
-  
+
+    .card-title1 {
+        font-size: 10px;
+        color: black;
+
+    }
+
+    .card-text1 {
+        font-size: 10px;
+        color: black;
+
+    }
+
+    .porc {
+        color: black;
+
+    }
+
 }
