@@ -100,6 +100,14 @@ footer .bg-cr {
 
 
 }
+.carousel-item{
+    height: 10%;
+
+    }
+    .carousel-caption.text-end{
+        margin-bottom: 400px;
+       
+     }
 
 @media screen and (max-width:808px) {
     .descuentos.py-3 {
@@ -130,5 +138,22 @@ footer .bg-cr {
         color: black;
 
     }
-
+ .but{
+    width: 20%;
+display: grid;
+gap: 10px;
+margin-left: 50px;
+ }
+ .carousel-caption.text-end{
+    margin-bottom: 400px;
+   
+ }
+ .carousel-item{
+    height:fit-content;
+    width:fit-content;
+ }
+ .footer{
+    text-decoration: none;
+    list-style: none;
+ }
 }
